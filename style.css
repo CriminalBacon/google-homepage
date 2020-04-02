@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#searchbox-div {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.searchbox {
+    border: 1px solid #d9d9d9;
+    border-radius: 50px;
+    height: 40px;
+    width: 500px;
+    padding-left: 20px;
+    
+}
+
+.searchbox:hover {
+    box-shadow: 2px 2px 3px #d9d9d9;
+}
+
+.searchbox:focus {
+    box-shadow: 2px 2px 3px #d9d9d9;   
+}
+
+.button-class {
+    border: 1px solid #eeeded;
+    background-color: #eeeded;
+    border-radius: 6px;
+    color: grey;
+    padding: 10px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.button-class:hover {
+    border: 1px solid #c5c5c5;
+    box-shadow: 1px 1px 2px #d9d9d9; 
+}
